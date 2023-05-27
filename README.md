@@ -18,7 +18,7 @@ It also saves the data to a JSON file, and stores the user's name and email in a
 5. The script will fetch random user information from the API, display the user's name, email, username, location, and phone number.
 6. You will be prompted to enter whether you want to display extra information or not.
 - If you enter "Yes", it will display the status code of the API response and the response headers.
-- If you enter any other key, it will save the information to a JSON file.
+- It will save the information to a JSON file anyway.
 7. The script will then save the user's name and email to an SQLite database named `emails.db`.
 8. If you have enabled the desktop notifications (uncommented the relevant code), a toast notification will also be displayed with the user's name and email.
 9. The script will print a message confirming the successful saving of the email address to the database.
