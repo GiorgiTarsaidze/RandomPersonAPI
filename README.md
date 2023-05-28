@@ -14,7 +14,7 @@ It also saves the data to a JSON file, and stores the user's name and email in a
 1. Clone or download the script to your local machine.
 2. Install the required libraries mentioned in the requirements section.
 3. Run the script using the following command:
-`python random_user_info.py`
+`python api.py`
 5. The script will fetch random user information from the API, display the user's name, email, username, location, and phone number.
 6. You will be prompted to enter whether you want to display extra information or not.
 - If you enter "Yes", it will display the status code of the API response and the response headers.
