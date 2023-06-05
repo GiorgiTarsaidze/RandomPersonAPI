@@ -25,7 +25,7 @@ try:
     location = user["location"]["city"] + ", " + user["location"]["country"]
     phone = user["phone"]
 
-    sep = "--------------------------"
+    sep = "-" * 30
     print(sep)
     print("Random User Information:\n"+sep)
     print("Name:", name)
